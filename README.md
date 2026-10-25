@@ -176,7 +176,8 @@ Render provides a single dynamic `$PORT`. Nexus is engineered to bind FastAPI to
 5. Configure Environment Variables matching `.env.example`.
 6. Health Check Path: `/health` (Serves `200 OK` with JSON telemetry).
 
-### Option B: Vercel Hosting (Next.js Dashboard)
+### Option B: Vercel Hosting (Public Site + Next.js Dashboard)
+The Next.js app serves the public site at `/` and the authenticated server dashboard under `/dashboard` from one Vercel project. The separate `landing/` Astro implementation is for local development and is not the production root.
 1. Import the repository into Vercel and set the **Root Directory** to `dashboard`.
 2. Configure Environment Variables in Vercel matching `dashboard/.env.example`.
 3. Set `BOT_API_URL` to your Render service URL (e.g. `https://nexus-bot.onrender.com`).

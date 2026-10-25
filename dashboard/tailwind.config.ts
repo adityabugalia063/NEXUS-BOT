@@ -23,7 +23,7 @@ const config: Config = {
         ink: "var(--ink, #12040F)",
         "text-muted": "var(--text-muted, rgba(221, 227, 232, 0.60))",
         "text-faint": "var(--text-faint, rgba(221, 227, 232, 0.38))",
-        hint: "var(--hint, #8E6B9A)",
+        hint: "var(--hint, #3DDBB0)",
         glass: {
           bg: "var(--glass-bg, rgba(58,15,52,0.28))",
           "bg-strong": "var(--glass-bg-strong, rgba(58,15,52,0.42))",
@@ -43,14 +43,14 @@ const config: Config = {
         "border-strong": "var(--glass-border-strong, rgba(221,227,232,0.18))",
         text: "var(--ice-silver, #DDE3E8)",
         accent: {
-          DEFAULT: "var(--ice-silver, #DDE3E8)",
-          ink: "var(--ink, #12040F)",
+          DEFAULT: "var(--accent, #3DDBB0)",
+          ink: "var(--accent-ink, #071610)",
         },
         tint: "var(--tint, rgba(221, 227, 232, 0.06))",
         brand: {
-          DEFAULT: "var(--ice-silver, #DDE3E8)",
-          hover: "#FFFFFF",
-          light: "var(--ice-silver, #DDE3E8)",
+          DEFAULT: "var(--brand-color, #3DDBB0)",
+          hover: "#64E8C2",
+          light: "#A5F3D9",
         },
         dark: {
           bg: "var(--bg-deep, #0B0709)",

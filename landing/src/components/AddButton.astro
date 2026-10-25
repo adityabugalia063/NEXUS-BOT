@@ -7,6 +7,8 @@ const todo = isTodo(INVITE_URL);
   class:list={["button", "button-primary", { "button-compact": compact }]}
   href={todo ? "#invite-not-configured" : INVITE_URL}
   data-todo={todo ? "invite" : undefined}
+  target={todo ? undefined : "_blank"}
+  rel={todo ? undefined : "noopener noreferrer"}
 >
   <span>Add to Discord</span>
   <svg aria-hidden="true" viewBox="0 0 20 20" width="17" height="17" fill="none">
